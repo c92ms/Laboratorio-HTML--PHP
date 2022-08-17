@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credito</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form action="tasaInteres.php" method="post">
+
+        <label class="label">Cedula del Cliente:  </label>
+        <input class="casilla" type="int" name="cedula" value=""><br><br>
+
+        <label class="label">Nombre del Cliente:  </label>
+        <input class="casilla" type="String" name="cliente" value=""><br><br>
+
+        <label class="label">Monto del Credito:  </label>
+        <input class="casilla" type="float" name="monto" value="0"><br><br>
+
+        <label class="label">Tasa de Interes Mensual  en %: </label>
+        <input class="casilla "type="float" name="interes" value="0"><br><br>
+
+        <label class="label">Plazo en meses: </label>
+        <input class="casilla "type="float" name="plazo" value="0"><br><br>
+
+
+        <input class="btn" type="submit" valor="Enviar">
+    </form>
+    
+</body>
+</html>

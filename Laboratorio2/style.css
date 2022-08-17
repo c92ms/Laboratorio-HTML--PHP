@@ -1,0 +1,32 @@
+form{
+    
+    margin: 15px;
+    padding: 10px;
+    background-color: orange; 
+    color:black;
+    height:150px;
+    width:500px;
+    border-radius: 10px;
+
+}
+
+label{
+    float:left;
+    
+
+ 
+}
+
+.casilla{
+    float: right;
+    
+
+    
+}
+.btn{
+    float:right;
+    margin-right: 50%;
+   
+    
+    
+}
